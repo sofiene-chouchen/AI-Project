@@ -5,10 +5,10 @@ import options from './ingredients.json';
 
 function App() {
   const [data, setData] = useState({});
-  console.log(data);
 
-  const onChange = (e: object) => {
-    setData(e);
+  const onChange = (e: object[]) => {
+    const values = e.map((item) => item.value);
+    setData(values);
   };
 
   const sendData = () => {
