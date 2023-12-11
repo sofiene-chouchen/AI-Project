@@ -1,6 +1,6 @@
-options : [
-  { value: 'chocolate', label: 'Chocolate' },
-  { value: 'strawberry', label: 'Strawberry' },
-  { value: 'vanilla', label: 'Vanilla' },
-  { value: 'tomato', label: 'tomato' },
-];
+[
+  { "value": "chocolate", "label": "Chocolate" },
+  { "value": "strawberry", "label": "Strawberry" },
+  { "value": "vanilla", "label": "Vanilla" },
+  { "value": "tomato", "label": "Tomato" }
+]
