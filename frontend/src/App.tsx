@@ -36,6 +36,10 @@ function App() {
             Recherche
           </button>
         </div>
+
+        <div className='bg-slate-600 w-44 h-28 mt-20 rounded-md '>
+          <p className='content-center'>title</p>
+        </div>
       </div>
     </div>
   );
